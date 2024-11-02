@@ -162,11 +162,13 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function checkDuplicateContent() {
+        // in progress
         // Цю перевірку можна реалізувати, перевіряючи текст на сторінці на дублікат.
         logError("Перевірте наявність дублікатів контенту на сторінці.");
     }
 
     function checkBlockingScripts() {
+        // in progress
         // Перевірка наявності скриптів, які блокують рендеринг.
         logError("Перевірте наявність скриптів, які можуть блокувати рендеринг.");
     }
