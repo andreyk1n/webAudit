@@ -161,19 +161,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // function checkDuplicateContent() {
-    //     // in progress
-    //     // Цю перевірку можна реалізувати, перевіряючи текст на сторінці на дублікат.
-    //     logError("Перевірте наявність дублікатів контенту на сторінці.");
-    // }
-
-    // function checkBlockingScripts() {
-    //     // in progress
-    //     // Перевірка наявності скриптів, які блокують рендеринг.
-    //     logError("Перевірте наявність скриптів, які можуть блокувати рендеринг.");
-    // }
-
-
     function checkDuplicateContent() {
         const textElements = document.querySelectorAll("p, h1, h2, h3, h4, h5, h6, span, li, div"); // Вибираємо текстові елементи
         const textMap = new Map(); // Використовуємо Map для відстеження унікальних текстів
